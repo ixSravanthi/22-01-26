@@ -65,5 +65,8 @@ public class problem1 {
         catch(FileNotFoundException e){
             System.out.println("Error");
         }
+
+        //comparing strings
+        
     }
 }
