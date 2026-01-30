@@ -4,6 +4,7 @@ import java.io.IOException;
 import java.nio.file.Files;
 import java.nio.file.Path;
 import java.util.HashSet;
+import java.util.List;
 import java.util.Scanner;
 import java.util.logging.Logger;
 import java.util.regex.Pattern;
@@ -30,7 +31,7 @@ public class problem5 {
                     System.out.print(str+" ");   
                 }
                 System.out.print("\n");
-                data_list[1].replace(" ", "");
+                data_list[1]=data_list[1].replaceAll("\\s+", " ");
                 data_list[1]=data_list[1].strip();
                 try{
                     validateName(data_list[1]);
@@ -83,7 +84,7 @@ public class problem5 {
     }
 
     //Validation methods
-    private static final String NAME_REGEX="^[A-Za-z]+$";
+    private static final String NAME_REGEX="^[A-Za-z]{2}+\s*[A-Za-z]*\s*[A-Za-z]*$";
     public static void validateName(String name) throws InvalidNameException{
         if(name==null || !Pattern.matches(NAME_REGEX, name)){
             throw new InvalidNameException("Invalid name");
@@ -110,3 +111,4 @@ class InvalidAgeException extends Exception {
         super(message);
     }
 }
+ 

@@ -67,6 +67,19 @@ public class problem1 {
         }
 
         //comparing strings
-        
+        String a="Technology";
+        String b="Technology";
+        if(a.equals(b)){
+            System.out.println("content are equal");
+        }
+        else{
+            System.out.println("content are not equal");
+        }
+        if(a==b){
+            System.out.println("same objects");
+        }
+        else{
+            System.out.println("different objects");
+        }
     }
 }
