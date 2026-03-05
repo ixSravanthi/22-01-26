@@ -44,7 +44,7 @@ public class problem3 {
     }
 
     //Validation methods
-    private static final String EMAIL_REGEX ="^[A-Za-z0-9+_.-]+@[A-Za-z0-9.-]+$";
+    private static final String EMAIL_REGEX ="^[A-Za-z0-9+_.-]+@[A-Za-z0-9.-]+.com$";
     public static void validateEmail(String email) throws InvalidEmailException {
         if(email == null || !Pattern.matches(EMAIL_REGEX, email)) {
             throw new InvalidEmailException("Invalid email address");

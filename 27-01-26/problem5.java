@@ -14,9 +14,6 @@ public class problem5 {
     public static void main(String[] args) {
         //reading file
         File file=new File("student_data.txt");
-        //writing file
-        Path valid_file=Path.of("valid.txt");
-        Path invalid_file=Path.of("invalid.txt");
 
         HashSet<String[]> valid_data_set=new HashSet<>();
         HashSet<String[]> invalid_data_set=new HashSet<>();
