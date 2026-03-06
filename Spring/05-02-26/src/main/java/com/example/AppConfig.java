@@ -15,6 +15,4 @@ public class AppConfig {
     public GreetingClient greetingClient(){
         return new GreetingClient(greetingService());
     }
-
-
 }

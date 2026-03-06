@@ -4,8 +4,6 @@ import org.springframework.beans.factory.annotation.Autowired;
 
 public class GreetingClient {
     public GreetingService greetingService;
-//    String client="Jhon";
-
     @Autowired
     public GreetingClient(GreetingService greetingService){
         this.greetingService=greetingService;

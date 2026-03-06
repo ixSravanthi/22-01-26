@@ -10,5 +10,6 @@ public class main
     {
         AnnotationConfigApplicationContext context= new AnnotationConfigApplicationContext(AppConfig.class);
         context.getBean(GreetingService.class);
+        context.close();
     }
 }
