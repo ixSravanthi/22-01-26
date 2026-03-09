@@ -9,8 +9,8 @@ import org.springframework.beans.factory.DisposableBean;
 public class UserService implements InitializingBean, DisposableBean{
     public UserRepository userRepository;
     public UserService(UserRepository userRepository){
-        this.userRepository=userRepository;
         System.out.println("1.Bean Instantination");
+        this.userRepository=userRepository;
     }
     @PostConstruct
     public void postConstruct(){

@@ -10,12 +10,12 @@ import org.springframework.context.annotation.Bean;
 @Configuration
 public class AppConfig {
     @Bean
-    public UserRepository userRepository(){
-        return new UserRepository();
-    }
-    @Bean
     public UserService userService(){
         return new UserService(userRepository());
+    }
+    @Bean
+    public UserRepository userRepository(){
+        return new UserRepository();
     }
     @Bean
     public A a(){

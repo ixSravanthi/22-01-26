@@ -5,10 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6226df5b-32c9-4046-82ae-a00d27722c48" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../04-02-26/src/main/java/com/example/AppConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/../04-02-26/src/main/java/com/example/AppConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../04-02-26/src/main/java/com/example/circular_dependency/A.java" beforeDir="false" afterPath="$PROJECT_DIR$/../04-02-26/src/main/java/com/example/circular_dependency/A.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../04-02-26/src/main/java/com/example/main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../04-02-26/src/main/java/com/example/main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../04-02-26/src/main/java/com/example/repository/UserRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/../04-02-26/src/main/java/com/example/repository/UserRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../04-02-26/src/main/java/com/example/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../04-02-26/src/main/java/com/example/service/UserService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/AppConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/AppConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/example/service/GreetingClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/service/GreetingClient.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -85,7 +87,8 @@
       <option name="presentableId" value="Default" />
       <updated>1772707102165</updated>
       <workItem from="1772707103222" duration="4917000" />
-      <workItem from="1772792067335" duration="1252000" />
+      <workItem from="1772792067335" duration="6201000" />
+      <workItem from="1773030828171" duration="4217000" />
     </task>
     <servers />
   </component>
