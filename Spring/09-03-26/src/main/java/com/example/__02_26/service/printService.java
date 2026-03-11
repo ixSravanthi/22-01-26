@@ -1,4 +1,4 @@
-package com.example.__02_26;
+package com.example.__02_26.service;
 
 import jakarta.annotation.PostConstruct;
 import org.springframework.beans.factory.annotation.Value;
@@ -6,7 +6,7 @@ import org.springframework.stereotype.Component;
 
 
 @Component
-public class service {
+public class printService {
     @Value("${Message}")
     public String msg;
 
