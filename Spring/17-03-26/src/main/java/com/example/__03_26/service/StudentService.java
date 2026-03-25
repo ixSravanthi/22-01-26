@@ -37,7 +37,8 @@ public class StudentService {
         return studentrepository.findAll()
                 .stream()
                 .map(studentmapper::mapToResponse)
-                .toList();    }
+                .toList();
+    }
 
     public List<StudentResponse> filterStudents(String name, Integer minMarks) {
         return studentrepository.findAll().stream()
@@ -66,5 +67,6 @@ public class StudentService {
             throw new RuntimeException("Student not found");
         }
 //        throw new RuntimeException("Delete failed");
-        studentrepository.deleteById(id);    }
+        studentrepository.deleteById(id);
+    }
 }
