@@ -6,21 +6,15 @@ import jakarta.persistence.*;
 @Table(name = "students")
 public class Student {
     @Id
-    @GeneratedValue(strategy=GenerationType.IDENTITY)
+    @GeneratedValue(strategy= GenerationType.IDENTITY)
     @Column(name = "student_id")
-    private long id;
+    private Long id;
     @Column(name = "student_name", nullable = false, length = 50)
     private String name;
     @Column(name="student_marks")
     private int marks;
 
-
     public Student(){}
-
-    public Student(String name, int marks){
-        this.name=name;
-        this.marks=marks;
-    }
 
     public long getId() {
         return id;

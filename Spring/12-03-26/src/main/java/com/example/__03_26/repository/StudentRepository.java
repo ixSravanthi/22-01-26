@@ -14,6 +14,7 @@ public interface StudentRepository extends JpaRepository<Student, Long> {
     List<Student> findByName(String name);
     Void deleteById(long id);
 
+    Student findByNameAndId(String name, int id);
     Student findByIdGreaterThan(int id);
     Student findAllByNameContaining(String subsstring);
     Optional<Student> countByMarks(int marks);
