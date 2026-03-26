@@ -32,7 +32,7 @@ public class StudentController {
     }
 
     @GetMapping("/students/search")
-    public ResponseEntity<List<StudentResponse>> getStudentDetailsByNameAndMinimumMarks(@RequestParam(required = false) String name,@RequestParam(required = false) int minMarks){
+    public ResponseEntity<List<StudentResponse>> getStudentDetailsByNameAndMinimumMarks(@RequestParam(required = false) String name,@RequestParam(required = false) Integer minMarks){
         return ResponseEntity.ok(studentservice.filterStudents(name,minMarks));
     }
 
